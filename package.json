@@ -1,0 +1,45 @@
+{
+  "name": "solispec-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Solispec: solar mounting projects, load reports, proposals, clients and price lists through the Solispec API",
+  "type": "module",
+  "bin": {
+    "solispec-mcp": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "zod": "4.6.7"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "solar",
+    "pv",
+    "photovoltaic",
+    "solar-mounting",
+    "snow-load",
+    "wind-load",
+    "solispec"
+  ],
+  "homepage": "https://solispec.com",
+  "license": "MIT",
+  "mcpName": "io.github.solispec/solispec-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solispec/solispec-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solispec/solispec-mcp/issues"
+  },
+  "author": "Solispec <hello@solispec.com>"
+}
